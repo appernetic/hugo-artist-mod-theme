@@ -1,7 +1,7 @@
 # Site settings
-baseurl = "https://example.org/"
-languageCode = "en-us"
-title = "Hugo Artists Theme"
+baseurl = "https://eladshamir.com/" # To test in developement, add baseurl = http://localhost:8000/ run hugo to create the public site, then go to /public and start python -m SimpleHTTPServer 8000. https://eladshamir.com/
+languageCode = "en"
+title = "ELAD SHAMIR"
 theme = "hugo-artists-theme"
 
 [params]
@@ -11,8 +11,8 @@ theme = "hugo-artists-theme"
 
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
-	name = "Your name"
-	description = "Your description"
+	name = "ELAD SHAMIR"
+	description = "Security is my craft"
 
 	# Since this template is static, the contact form uses www.formspree.io as a
 	# proxy. The form makes a POST request to their servers to send the actual
@@ -34,8 +34,8 @@ theme = "hugo-artists-theme"
 	# Do the same with the logo ('logo.svg').
 	# But keep the original filename!
 	[params.header]
-		title = "Artists Theme"
-		shortBio = "Thinker // Designer // YouTuber"
+		title = "ELAD SHAMIR"
+		shortBio = "Security is my craft"
 
 
 	# About section
@@ -43,39 +43,10 @@ theme = "hugo-artists-theme"
 	# Replace the 'avatar.jpg' under 'static/img' with your own image.
 	[params.about]
 		title = "About me"
-		bio = "**Travis specializes in making things** for human people. Most of the things he makes are [digital interfaces](//travisneilson.com/), but he also puts effort into crafting [next-level beats](//soundcloud.com/travis-neilson) and [YouTube videos](//youtube.com/user/devtipsfordesigners) about making codes happen."
+		bio = "Accomplished and integrity-driven information security professional with extensive experience across all domains of Information Security. Holds an academic degree in information systems engineering as well as several highly sought after certifications. <p>Proficient in identifying flaws and weaknesses, understanding both the big picture and the minute details, and combining his unique experience to identify and exploit hard-to-find vulnerabilities and to provide creative and holistic security solutions, to strategically align security with business objectives.</p>"
+    secondtitle = "Selected Highlights"
+    Highlights = "**Led a high-profile red team attack simulation project** on one of the largest corporations in Australia, and successfully bypassed a series of high-grade security controls to compromise critical systems and access sensitive information, while remaining stealthy (The Missing Link)<p>**Researched vulnerabilities in Supervisory Control and Data Acquisition (SCADA) systems and protocols** and developed IPS protections to detect attacks exploiting them, allowing Check Point to become the first IPS vendor to offer a comprehensive SCADA protection suite (Check Point)</p><p>**While Head of Information Security**, established a territory-wide Information Security program in alignment with the Southern Command’s mission and goals (Israeli Defense Force)</p><p>**As Head of Information Systems Security**, received a decoration in recognition of outstanding service from the President on Independence Day, in the presence of the Prime Minister, Minister of Defense, Chief of General Staff, as well as the entire General Staff (Israeli Defense Force)</p><p>**Planned and drove an extensive end-point hardening project** throughout the southern command for almost 10,000 computers in over 50 different facilities (Israeli Defense Force)</p><p>**Established the Information Systems Security Section** from the ground up and transformed the Southern Command’s non-existent information systems security into a well-defined and strongly managed asset (Israeli Defense Force)</p>"
 
-		[[params.about.skills]]
-			name = "Communication"
-			value = 9
-
-		[[params.about.skills]]
-			name = "Organization"
-			value = 7
-
-		[[params.about.skills]]
-			name = "Learning"
-			value = 10
-
-		[[params.about.skills]]
-			name = "Teaching"
-			value = 6
-
-		[[params.about.skills]]
-			name = "Planning"
-			value = 7
-
-		[[params.about.skills]]
-			name = "Visual Design"
-			value = 5
-
-		[[params.about.skills]]
-			name = "UX Design"
-			value = 8
-
-		[[params.about.skills]]
-			name = "Programming"
-			value = 6
 
 	# Contact secion
 	[params.contact]
@@ -115,4 +86,4 @@ theme = "hugo-artists-theme"
 
 
 	[params.footer]
-		copyright = "Published under the Unlicense License."
+		copyright = "Background image: Partial map of the Internet based on the January 15, 2005 data found on <a href='http://www.opte.org/maps/' target='_blank'>opte.org</a> Credit: Barret Lyon, The Opte Project, Attribution 2.5 Generic (CC BY 2.5).<br> © 2017 ELAD SHAMIR."
