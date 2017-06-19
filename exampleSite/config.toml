@@ -1,8 +1,8 @@
 # Site settings
 baseurl = "https://eladshamir.com/" # To test in developement, add baseurl = http://localhost:8000/ run hugo to create the public site, then go to /public and start python -m SimpleHTTPServer 8000. https://eladshamir.com/
 languageCode = "en"
-title = "ELAD SHAMIR"
-theme = "hugo-artists-theme"
+title = "YOUR SITE"
+theme = "hugo-artist-mod-theme"
 
 [params]
 
@@ -11,8 +11,8 @@ theme = "hugo-artists-theme"
 
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
-	name = "ELAD SHAMIR"
-	description = "Security is my craft"
+	name = "TEZOS"
+	description = "A new digital commonwealth"
 
 	# Since this template is static, the contact form uses www.formspree.io as a
 	# proxy. The form makes a POST request to their servers to send the actual
@@ -34,8 +34,8 @@ theme = "hugo-artists-theme"
 	# Do the same with the logo ('logo.svg').
 	# But keep the original filename!
 	[params.header]
-		title = "ELAD SHAMIR"
-		shortBio = "Security is my craft"
+		title = "Tezos.ch"
+		shortBio = "A new digital commonwealth"
 
 
 	# About section
