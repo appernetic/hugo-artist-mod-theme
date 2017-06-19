@@ -1,21 +1,9 @@
 {{ "<!-- About section -->" | safeHTML }}
 <section>
-    {{ with .Site.Params.about.title }}<h3 id="about-me">{{ . }}</h3>{{ end }}
+    {{ with .Site.Params.about.title }}<h2 id="about-me">{{ . }}</h2>{{ end }}
 
     <div class="face-lockup">
         <div class="face-img"></div>
-        <div class="icon-pencil">
-            {{ partial "icons/icon-pencil.html"}}
-        </div>
-        <div class="icon-mouse">
-            {{ partial "icons/icon-mouse.html"}}
-        </div>
-        <div class="icon-browser">
-            {{ partial "icons/icon-browser.html"}}
-        </div>
-        <div class="icon-video">
-            {{ partial "icons/icon-video.html"}}
-        </div>
     </div>
 
     {{ with .Site.Params.about.bio }}
@@ -23,19 +11,15 @@
         <p>{{ . | markdownify }}</p>
     </div>
     {{ end }}
+</section>
 
-    {{ with .Site.Params.about.skills }}
-    <div class="skill-lockup">
-        {{ range . }}
-        <div class="skill-unit">
-            <div class="skill-label">{{ .name }}</div>
-            <div class="skill-icons skill-{{ .value }}">
-                {{ range (seq 10) }}
-                    <span></span>
-                {{ end }}
-            </div>
-        </div>
-        {{ end }}
-    </div>
-    {{ end }}
+<section class="alt-section section-work" style="background-color:#fff">
+    {{ with .Site.Params.about.secondtitle }}<h2 id="highlights">{{ . }}</h2>{{ end }}
+
+  {{ with .Site.Params.about.Highlights }}
+  <div class="blurb">
+      <p>{{ . | markdownify }}</p>
+  </div>
+  {{ end }}
+
 </section>

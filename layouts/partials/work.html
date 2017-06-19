@@ -1,5 +1,5 @@
-<section class="alt-section section-work">
-    {{ with .Site.Data.work.title }}<h3 id="work">{{ . }}</h3>{{ end }}
+<section class="alt-section section-work" style="background-color:#fff">
+    {{ with .Site.Data.work.title }}<h2 id="work">{{ . }}</h2>{{ end }}
 
     {{ range .Site.Data.work.projects }}
     <input type="radio" name="trigger" class="trigger" id="{{ .folder }}" />
@@ -8,14 +8,21 @@
     <div class="work-belt">
         <div class="thumb-wrap">
             <div class="thumb-container">
+
                 {{ range .Site.Data.work.projects }}
+
                 <label for="{{ .folder }}">
-                    <div class="thumb-unit" data-folder="{{ .folder }}">
-                        <img src="img/work/{{.folder}}/thumb.jpg" alt="{{ .name }}" />
+
+                  <div class="thumb-unit" data-folder="{{ .folder }}">
+
+                      <!--  <img src="img/work/{{.folder}}/thumb.jpg" alt="{{ .name }}" />-->
                     </div>
-                    <div class="thumb-overlay">
+                    <div class="thumb-overlay2">
+                          <strong>{{ .name }}</strong>
+                      </div>
+                  <!--<div class="thumb-overlay">
                         <strong>{{ .name }}</strong>
-                    </div>
+                    </div>-->
                 </label>
                 {{ end }}
             </div>
