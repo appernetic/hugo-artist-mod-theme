@@ -4,10 +4,9 @@
         <div class="content-wrap">
             <nav>
                 {{ with .Site.Params.about.title }}<a href="#about-me">{{ . }}</a>{{ end }}
-                <a href="#highlights">Selected Highlights</a>
+                <a href="#highlights">About us</a>
                 {{ with .Site.Data.work.title }}<a href="#work">{{ . }}</a>{{ end }}
-                <!--{{ with .Site.Params.clients.title }}<a href="#clients">{{ . }}</a>{{ end }}
-                {{ with .Site.Params.contact.title }}<a href="#contact">{{ . }}</a>{{ end }}-->
+                {{ with .Site.Params.contact.title }}<a href="#contact">{{ . }}</a>{{ end }}
             </nav>
             <p class="copyright">{{ with .Site.Params.footer.copyright | markdownify }}{{ . }}{{ else }}All content copyright {{now.Format "2006"}} {{ end }}</p>
         </div>
