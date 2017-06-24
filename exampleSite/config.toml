@@ -1,7 +1,7 @@
 # Site settings
-baseurl = "https://eladshamir.com/" # To test in developement, add baseurl = http://localhost:8000/ run hugo to create the public site, then go to /public and start python -m SimpleHTTPServer 8000. https://eladshamir.com/
+baseurl = "/" # To test in developement, add baseurl = http://localhost:8000/ run hugo to create the public site, then go to /public and start python -m SimpleHTTPServer 8000. https://eladshamir.com/
 languageCode = "en"
-title = "YOUR SITE"
+title = "Tezos Foundation"
 theme = "hugo-artist-mod-theme"
 
 [params]
@@ -11,7 +11,7 @@ theme = "hugo-artist-mod-theme"
 
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
-	name = "TEZOS"
+	name = "Tezos Foundation"
 	description = "A new digital commonwealth"
 
 	# Since this template is static, the contact form uses www.formspree.io as a
@@ -25,7 +25,7 @@ theme = "hugo-artist-mod-theme"
     # - send a dummy email yourself to confirm your account
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
-	email = "your@email.com"
+	email = "contact@tezos.ch"
 
 
 	# Header an navigation
@@ -34,19 +34,18 @@ theme = "hugo-artist-mod-theme"
 	# Do the same with the logo ('logo.svg').
 	# But keep the original filename!
 	[params.header]
-		title = "Tezos.ch"
-		shortBio = "A new digital commonwealth"
+		title = "Tezos Foundation"
+		shortBio = "The Tezos Foundation promotes the development of the Tezos blockchain and smart contracting platform, as well as related technologies and applications, and a vibrant ecosystem of developers and users."
 
 
 	# About section
 	#
 	# Replace the 'avatar.jpg' under 'static/img' with your own image.
 	[params.about]
-		title = "About me"
-		bio = "Accomplished and integrity-driven information security professional with extensive experience across all domains of Information Security. Holds an academic degree in information systems engineering as well as several highly sought after certifications. <p>Proficient in identifying flaws and weaknesses, understanding both the big picture and the minute details, and combining his unique experience to identify and exploit hard-to-find vulnerabilities and to provide creative and holistic security solutions, to strategically align security with business objectives.</p>"
-    secondtitle = "Selected Highlights"
-    Highlights = "**Led a high-profile red team attack simulation project** on one of the largest corporations in Australia, and successfully bypassed a series of high-grade security controls to compromise critical systems and access sensitive information, while remaining stealthy (The Missing Link)<p>**Researched vulnerabilities in Supervisory Control and Data Acquisition (SCADA) systems and protocols** and developed IPS protections to detect attacks exploiting them, allowing Check Point to become the first IPS vendor to offer a comprehensive SCADA protection suite (Check Point)</p><p>**While Head of Information Security**, established a territory-wide Information Security program in alignment with the Southern Command’s mission and goals (Israeli Defense Force)</p><p>**As Head of Information Systems Security**, received a decoration in recognition of outstanding service from the President on Independence Day, in the presence of the Prime Minister, Minister of Defense, Chief of General Staff, as well as the entire General Staff (Israeli Defense Force)</p><p>**Planned and drove an extensive end-point hardening project** throughout the southern command for almost 10,000 computers in over 50 different facilities (Israeli Defense Force)</p><p>**Established the Information Systems Security Section** from the ground up and transformed the Southern Command’s non-existent information systems security into a well-defined and strongly managed asset (Israeli Defense Force)</p>"
-
+		title = "About us"
+		bio = "<p>Tezos is a security-minded, future-proof, smart contract platform. It features a built-in governance mechanism that gives stakeholders the power to make decisions on protocol upgrades which are automatically pushed on the blockchain. In addition, Tezos features a proof-of-stake consensus algorithm and a smart contract language designed to facilitate formal verification. This ensures that changes to the software happen in a safe, secure, and transparent way without the risk of hard forks.</p><p>With a protocol written in OCaml and a new smart contract language called Michelson, Tezos makes security and nonambiguity our top concern.</p><p>For more information please review our:</p>- [White paper](https://github.com/tezos/tezos)  - [Position paper](https://tezos.com/pdf/position_paper.pdf)  - [Reddit](https://www.reddit.com/r/tezos/)"
+    secondtitle = ""
+    Highlights = ""
 
 	# Contact secion
 	[params.contact]
