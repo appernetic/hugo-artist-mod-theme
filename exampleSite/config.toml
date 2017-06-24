@@ -85,4 +85,4 @@ theme = "hugo-artist-mod-theme"
 
 
 	[params.footer]
-		copyright = "Background image: Partial map of the Internet based on the January 15, 2005 data found on <a href='http://www.opte.org/maps/' target='_blank'>opte.org</a> Credit: Barret Lyon, The Opte Project, Attribution 2.5 Generic (CC BY 2.5).<br> © 2017 ELAD SHAMIR."
+		copyright = "© 2017 Tezos Foundation. Powered by: Appernetic.io"
