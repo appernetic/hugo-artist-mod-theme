@@ -2,11 +2,8 @@
 <header id="header">
     <nav>
         {{ with .Site.Params.about.title }}<a href="#about-me">{{ . }}</a>{{ end }}
-        <a href="#highlights">Selected Highlights</a>
-        {{ with .Site.Data.work.title }}<a href="#work">{{ . }}</a>{{ end }}
-
-        <!--{{ with .Site.Data.clients.title }}<a href="#clients">{{ . }}</a>{{ end }}
-        {{ with .Site.Params.contact.title }}<a href="#contact">{{ . }}</a>{{ end }}-->
+        {{ with .Site.Params.about.secondtitle }}<a href="#highlights">{{ . }}</a>{{ end }}
+        {{ with .Site.Params.contact.title }}<a href="#contact">{{ . }}</a>{{ end }}
     </nav>
     {{ with .Site.Params.header.title }}<h1><span>{{ . }}</span></h1>{{ end }}
     {{ with .Site.Params.header.shortBio }}<p class="kicker">{{ . }}</p>{{ end }}
