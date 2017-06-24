@@ -3,9 +3,8 @@
     <div class="lockup">
         <div class="content-wrap">
             <nav>
-                {{ with .Site.Params.about.title }}<a href="#about-me">{{ . }}</a>{{ end }}
-                <a href="#highlights">About us</a>
-                {{ with .Site.Data.work.title }}<a href="#work">{{ . }}</a>{{ end }}
+                {{ with .Site.Params.about.title }}<a href="#about-us">{{ . }}</a>{{ end }}
+                <a href="#tezos">About us</a>
                 {{ with .Site.Params.contact.title }}<a href="#contact">{{ . }}</a>{{ end }}
             </nav>
             <p class="copyright">{{ with .Site.Params.footer.copyright | markdownify }}{{ . }}{{ else }}All content copyright {{now.Format "2006"}} {{ end }}</p>
