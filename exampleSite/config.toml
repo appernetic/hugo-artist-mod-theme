@@ -44,7 +44,10 @@ theme = "hugo-artist-mod-theme"
 		title = "Tezos Foundation"
 		bio = "The Tezos Foundation promotes the development of the Tezos blockchain and smart contracting platform, as well as related technologies and applications, and a vibrant ecosystem of developers and users."     
         secondtitle = "About us"
-    Highlights = "<p>Tezos is a security-minded, future-proof, smart contract platform. It features a built-in governance mechanism that gives stakeholders the power to make decisions on protocol upgrades which are automatically pushed on the blockchain. In addition, Tezos features a proof-of-stake consensus algorithm and a smart contract language designed to facilitate formal verification. This ensures that changes to the software happen in a safe, secure, and transparent way without the risk of hard forks.</p><p>With a protocol written in OCaml and a new smart contract language called Michelson, Tezos makes security and nonambiguity our top concern.</p><p>For more information please review our:</p>- [White paper](https://github.com/tezos/tezos)  - [Position paper](https://tezos.com/pdf/position_paper.pdf)  - [Reddit](https://www.reddit.com/r/tezos/)"
+    Highlights = "<p>Tezos is a security-minded, future-proof, smart contract platform. It features a built-in governance mechanism that gives stakeholders the power to make decisions on protocol upgrades which are automatically pushed on the blockchain. In addition, Tezos features a proof-of-stake consensus algorithm and a smart contract language designed to facilitate formal verification. This ensures that changes to the software happen in a safe, secure, and transparent way without the risk of hard forks.</p><p>With a protocol written in OCaml and a new smart contract language called Michelson, Tezos makes security and nonambiguity our top concern.</p><p>For more information please review our:</p>
+    - [White paper](https://github.com/tezos/tezos)  
+    - [Position paper](https://tezos.com/pdf/position_paper.pdf)  
+    - [Reddit](https://www.reddit.com/r/tezos/)"
 
 
 	# Contact secion
