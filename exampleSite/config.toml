@@ -59,7 +59,7 @@ theme = "hugo-artist-mod-theme"
 			link = "//twitter.com/tez0s"
 
 		[[params.contact.social]]
-			icon = "web"
+			icon = "dribbble"
 			link = "//slack.tezos.com/"
 
 		[[params.contact.social]]
