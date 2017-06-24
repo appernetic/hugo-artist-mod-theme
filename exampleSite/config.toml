@@ -56,23 +56,16 @@ theme = "hugo-artist-mod-theme"
 		# 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
 		[[params.contact.social]]
 			icon = "twitter"
-			link = "//twitter.com/devtipsshow"
+			link = "//twitter.com/tez0s"
 
 		[[params.contact.social]]
-			icon = "dribbble"
-			link = "//dribbble.com/travisneilson"
+			icon = "slack"
+			link = "//slack.tezos.com/"
 
 		[[params.contact.social]]
-			icon = "behance"
-			link = "//www.behance.net/travisneilson"
+			icon = "github"
+			link = "//github.com/tezos/tezos"
 
-		[[params.contact.social]]
-			icon = "youtube"
-			link = "//www.youtube.com/DevTipsForDesigners"
-
-		[[params.contact.social]]
-			icon = "linkedin"
-			link = "//www.linkedin.com/in/travisneilson"
 
 
 	[params.form]
