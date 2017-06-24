@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "/" # To test in developement, add baseurl = http://localhost:8000/ run hugo to create the public site, then go to /public and start python -m SimpleHTTPServer 8000. https://eladshamir.com/
+baseurl = "/" # To test in developement, add baseurl = http://localhost:8000/ run hugo to create the public site, then go to /public and start python -m SimpleHTTPServer 8000. https://tezos.com/
 languageCode = "en"
 title = "Tezos Foundation"
 theme = "hugo-artist-mod-theme"
